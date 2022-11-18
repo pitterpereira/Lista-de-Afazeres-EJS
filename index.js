@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
     else
         mensagem = "Tenha um bom trabalho!! 👨‍💻"
 
-    res.send(mensagem);
+    res.sendFile(__dirname + "/index.html");
 });
 
 app.listen(3000, function(err){
