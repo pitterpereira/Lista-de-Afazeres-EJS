@@ -1,0 +1,14 @@
+{
+  "name": "lista-de-afazeres-ejs",
+  "version": "1.0.0",
+  "description": "Lista de afazeres feita em Node.js com Express e EJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pitter Pereira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
